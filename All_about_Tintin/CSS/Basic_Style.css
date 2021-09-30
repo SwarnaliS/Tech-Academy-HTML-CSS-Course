@@ -1,0 +1,91 @@
+body
+{
+    background-color:#EAF2F8 
+}
+
+h1
+{
+    color:#5499C7;
+    margin-left:100px;
+}
+
+.container
+{
+width:500px;
+height:500px;
+background-color:#5499C7;
+border:3px solid black;
+border-radius:5px;
+}
+/*Effecting all squares*/
+
+.container .Square:nth-child(-n+4)
+{
+    background-image:url("../Images/Icons/icon1.png");
+    float:left;
+    width:100px;
+    height:100px;
+    margin:5px;
+    border:2px solid black;
+    border-radius:5px;
+    cursor:pointer;
+    transition: transform .5s ease-in-out;
+}
+/*Effecting text*/
+.Square:nth-child(-n+4) p
+{
+font-family: Arial;
+font-size: 70%;
+font-weight: 900;
+text-align:center;
+margin:0;
+}
+
+/*Effecting individul squares*/
+.Square:nth-child(1)
+{background: #BFC9CA;
+}
+
+.Square:nth-child(2)
+{background: #7DCEA0;
+}
+
+.Square:nth-child(3)
+{background: #FADBD8;
+}
+
+.Square:nth-child(4)
+{background: #F9E79f;
+}
+
+/*Hover, Transform and Translate Effect*/
+
+.container .Square:nth-child(-n+4):hover
+{
+    background-image: url("../Images/Icons/icon2.png");
+    transform:scale (.5);
+    animation-name:race;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2) ;
+    
+}
+
+.Square:nth-child(1):hover{background-color:#566573}
+.Square:nth-child(2):hover{background-color:#145A32}
+.Square:nth-child(3):hover{background-color:#78281F}
+.Square:nth-child(4):hover{background-color:#9C640C}
+
+/*Animation effect*/
+@keyframes race
+{
+    0%,100% {
+        transform:translateY (0px);
+        background-image= url("../Images/Icons/icon2.png");
+
+    }
+    50% {
+        transform:translateY(320px);
+    }
+
+}
