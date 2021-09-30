@@ -1,0 +1,65 @@
+body
+{
+background-color: cornflowerblue;
+}
+
+.wrap
+{
+    width: 100%;
+    height: auto;
+    top: 0;
+    left:0;
+}
+.menu-container
+{
+    top:0;
+    left:0;
+    position:absolute;
+    width:100%;
+}
+.menu
+{
+    font-style: Arial;
+    font-weight: 800;
+    text-align: center;
+    display: inline;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.menu li
+{
+background-color:darkslategrey;
+color:black;
+border:blanchedalmond;
+border-radius: 1.5px;
+cursor: pointer;
+display: inline-block;
+position:relative;
+margin-right: -2px;
+padding: 12px 40px;
+}
+
+.menu li:hover
+{
+    background-color:grey;
+    color:brown;
+}
+
+.menu li:hover ul
+{
+    display:block;
+    opacity: 1;
+    visibility:visible;
+}
+
+.submenu
+{
+    padding:0;
+    left:0;
+    position:absolute;
+    width:42.688;
+    top:18;
+    visibility:hidden;
+
+}
