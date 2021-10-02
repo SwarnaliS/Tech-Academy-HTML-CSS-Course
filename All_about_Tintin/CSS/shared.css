@@ -1,0 +1,264 @@
+html
+{
+    font-family: Cavolini,Comic Sans MS;
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+}
+body
+{
+    font-family: Cavolini,Comic Sans MS;
+    font-size: 18 px;
+    margin: 0;
+    line-height: 1.5;
+    color:#581845;
+    background-color:#FEFE72 ;
+
+}
+
+
+
+h1,h3
+{
+    font-style: Cavolini,Comic Sans MS;
+}
+
+h1
+{
+    font-weight: 900;
+    text-align: Center;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 50px;
+    text-shadow: rgba 2px 2px 3px .5;
+    text-decoration-line: underline;
+
+}
+
+h3
+{
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+p
+{
+font-size: 18px;
+padding-bottom: 15px;
+line-height: 30px;
+}
+
+.text-center
+{
+    font-size: 50px;
+    font-weight: 900;
+    text-align:center;
+}
+.heading-padding
+{
+    padding-bottom: 40px;
+}
+
+section
+{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.navbar 
+{
+    height: 150px;
+    max-height: 340px;
+    display: block;
+    
+}
+
+.container
+{
+    padding-right: 15px;
+    padding-left: 15px; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrap
+{
+   width: 100%;
+   height:100%;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left:0;
+   text-align: center;
+} 
+    
+.menu-container
+{
+
+height: 340;
+margin: 0px auto;
+width: 100%;
+position: fixed;
+z-index: 100;
+font-size: 20px;
+font-weight: 600;
+}
+
+
+
+#Home 
+{
+    background: url(../Images/thumbnail_1.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    display:block;
+    height:auto;
+    padding-top: 350px;
+    padding-bottom: 500px;
+}
+ .terms
+ {
+     margin-left: 46%;
+ }
+
+ .head-main
+ {
+     text-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+     font-variant: small-caps;
+     letter-spacing: 5pt;
+     word-spacing: 21pt;
+     border: 5px double #581845;
+     padding: 10px;
+     line-height: 2;
+ }
+
+ .flex-container
+ {
+    display:-webkit-flex; 
+    display: flex;
+     padding: 10px;
+     border-radius: 8px;
+     margin:0px auto;
+     background-color:#FFC300;
+     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+     flex-wrap: wrap;
+}
+
+
+
+.reservation
+{
+    padding:10px;
+    border-radius: 8px;
+    margin:0px auto;
+    background-color:#FFC300 ;
+
+}
+
+.reservation h3
+{
+    text-align: center;
+}
+
+.reservation h3 span 
+{
+   font-variant: small-caps; 
+   
+}
+.rsvp-text
+{
+    text-align: center;
+}
+
+.reservation form
+{
+    font-family: Comic Sans MS;
+    font-size:12px;
+    border: 2px double #581845 ;
+    padding:20px 20px;
+    width: 70%;
+    margin: 2px auto;
+    border-radius: 7px;
+    background-color: #FEFE72;
+    
+}
+
+.rsvp
+{
+    background-color: #581845;
+    font-family: Comic Sans MS;
+    font-weight: 700;
+    font-size: 14px;
+    color: cornsilk;
+    border:1px cornsilk;
+    border-radius:5px;
+    width:90%;
+    padding:5px 5px 5px 20px;
+    margin: 10px auto;
+    
+}
+
+.terms
+{
+    position: relative;
+    display: inline;
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.terms:hover 
+{
+    color:orangered;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.submit input[type=submit]
+{
+    cursor: pointer;
+    background-color:#581845;
+    font-size: 14px;
+    font-weight: 900;
+    color:cornsilk;
+    border: 1px black;
+    border-radius: 5px;
+    padding:5px 5px 5px 5px;
+}
+
+.submit input[type=submit]:hover
+{
+    background-color: orangered;
+}
+
+#Footer
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    padding:20px 50px 20px 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
