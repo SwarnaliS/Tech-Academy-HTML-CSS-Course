@@ -40,7 +40,7 @@ th
     bottom: 0;
     left:0;
     right:0;
-    opacity:.5 ;
+    opacity: .5;
     text-align: center;
     padding-top:1px;
 }
@@ -53,34 +53,61 @@ nav
     width:18%;
     margin-bottom: 50px;
     background-color: lightblue;
-    color: black;
+    
     text-align: center;
     font-size: large;
     font-weight: 900;
     padding: 8px;
 }
+a
+{
+    color: black;
+}
 
 nav:hover
 {
     background-color: cornsilk;
-    color:darkred;
+    
     cursor: pointer;
 }
 
-.coloumn
+a:hover
+{
+    color:darkred;
+}
+
+.Column
 {
     width: 50%;
     float: left;
     height: 200px;
     background-color: cornflowerblue;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
-.row::after
+p:hover
 {
-    content:"";
-    display: table;
-    clear: both;
+    color:black;
 }
+
+video
+{
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+
+
+
+
 
 
 
