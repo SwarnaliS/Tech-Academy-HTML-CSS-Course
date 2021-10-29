@@ -1,0 +1,24 @@
+body
+{
+    background-color: lightblue;
+    
+}
+
+h1, h2, h3
+{
+    text-align: center;
+    color: darkblue;
+}
+p
+{
+    text-align: center;
+    font-weight: 800;
+    color:darkblue;
+
+}
+
+img
+{
+    border: 2px dashed red;
+    
+}

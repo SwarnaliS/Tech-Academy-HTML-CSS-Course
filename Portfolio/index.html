@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+    <title>Swarnali Satpathy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./CSS/my_style.css">
+</head>
+<html>
+    <body>
+        <!--nav starts-->
+        <nav>
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Github">Github</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+        <!--nav ends-->
+            <br>
+            <br>
+        <!--video starts-->
+        <div id="Home">
+            
+            <video autoplay muted  class="typing_video"> <source src="./Img/typing_video.mp4"></video> 
+        </div>
+        <!--video ends-->
+        
+        <!--video text starts-->
+        
+        <div class="text-overlay">
+            <h1 class="white-text">Swarnali's Portfolio</h1>
+                <strong>
+                    <p class="center">
+                            <q>
+                                The computer programmer is a creator of universes for which he alone is the lawgiver.
+                                <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                                <br>field of battle and to command such unswervingly dutiful actors or troops.
+                            </q>
+                            <br>-Joseph Weizenbaum
+                            <br>
+                            <br> My name is Swarnali (Sar-Na-Li). Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                            <br>
+                            <br>Thank you for stopping by! 
+                    </p>
+                </strong>
+                    
+        </div>
+        <!--video text ends-->
+
+        <!--Slideshow started-->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/self.jpg" alt="Picture of yourself">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    <!-- Slide 2 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/html-css-js.jpg" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+                    <!-- Slide 3 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/python.jpg" alt="Python logo">
+                        <div class="text">the popular programming language Python,</div>
+                    </div>
+                    
+                    <!-- Slide 4 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/sql.jpg" alt="SQL logo"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                    <!-- Slide 5 of 5 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Img/laptop.jpg" alt="Work Table"> 
+                        <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a></div> 
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images and the dots -->
+
+                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                     
+                </div>
+            </div>
+        </div>
+        
+
+        <!--about starts-->
+        <div id="About">
+            <div class="row">
+                <div class="column-2">
+                    <img src="./Img/coding1.jpg"  alt="">
+                </div>
+                <div class="column-1">
+                    <h1>About</h1>
+                    <p>
+                        I am a software developer who loves to code! I enjoy time with my family and traveling.
+                        <br>
+                        <br>I am a graduate of <a href="learncodeanywhere.com" target="-blank">The Tech Academy</a>'s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, Python and more. 
+                        <br>
+                        <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--about ends-->
+
+        <!--github stars-->
+        <div id="Github">
+            <div class="row">
+                <div class="column-3">
+                    <h1>Github</h1>
+                    <p>You can view my coding projects on my GitHub profile here:</p>
+                    <br>
+                    <br> <div class="gitlink"><a href="https://github.com/SwarnaliS" target="-blank">Swarnali's Github</a></div>
+                </div>
+                <div class="column-4">
+                    <img src="./Img/github.png"  alt="">
+                </div>
+            </div>
+        </div>
+        <!--github ends-->
+
+        <!--contact starts-->
+        <div id="Contact">
+            <div class="row">
+                <div class="column-5">
+                    <img src="./Img/contact.jpg"   alt="">
+                </div>
+                <div class="column-6">
+                    <h1>Contact Me</h1>
+                    <form action="https://formspree.io/f/xbjqbqqe" method="POST">
+                        <lable>Name:</lable>
+                        <input type="text"  name="Name" placeholder="Enter your name here">
+                        <lable>Email:</lable>
+                        <input type="text" name="Email" placeholder="Enter your email here ">
+                        <lable>Message:</lable>
+                        <input type="text" name="Message" placeholder="Enter your message here ">
+                        <input type="submit" value="SUBMIT">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--contact ends-->
+
+        <!--footer stars-->
+        <footer>
+            <strong>
+                &copy;Swarnali&nbsp;|&nbsp;2021
+            </strong>
+        </footer>
+
+        <script src="JS/main.js"></script>
+    </body>
+</html>> 
